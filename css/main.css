@@ -1,3 +1,6 @@
+a {
+  text-transform: none !important;
+}
 #ple-loader-wraps99,
 #ple-loader-wraps1,
 #ple-loader-wraps2,
@@ -514,6 +517,7 @@ p {
 a {
   color: #4d5968;
   word-wrap: break-word;
+  text-decoration: none;
 }
 
 a:hover,
@@ -687,7 +691,7 @@ input[type="submit"],
   cursor: pointer;
   transition: all 0.3s ease;
   background: #0072ff;
-  background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+  background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr="$one", endcolorstr="$two", gradienttype=1);
 }
 
@@ -1889,7 +1893,7 @@ img.alignright,
 
 .menu-item.button a {
   background: #0072ff;
-  background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+  background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr="$one", endcolorstr="$two", gradienttype=1);
   padding: 1em 3em;
   border-radius: 9rem;
@@ -2549,7 +2553,7 @@ img.alignright,
 
 .archive-pagination .active a {
   background: #0072ff;
-  background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+  background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr="$one", endcolorstr="$two", gradienttype=1);
   color: #ffffff;
 }
@@ -3613,7 +3617,7 @@ ul.testimonials-list h5 {
 --------------------------------------------- */
 .front-page-6 {
   background: #0072ff;
-  background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+  background: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr="$one", endcolorstr="$two", gradienttype=1);
   border: none !important;
   color: #ffffff;
@@ -4947,6 +4951,8 @@ ul.testimonials-list h5 {
 }
 
 .button.support {
+  color: white;
+  padding-right: 20px !important;
   background: #38c88a;
   background: linear-gradient(135deg, #38c88a 0%, #32b57c 100%);
 }
@@ -5384,4 +5390,8 @@ ul.testimonials-list h5 {
     width: 60px;
     background-size: 20px;
   }
+}
+
+.container {
+  margin: 100px;
 }
