@@ -5395,3 +5395,9 @@ ul.testimonials-list h5 {
 .container {
   margin: 100px;
 }
+
+@media (max-width: 767px){
+  .custom-logo{
+    margin-top: -35px;
+  }
+}
