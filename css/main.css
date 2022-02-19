@@ -1602,7 +1602,6 @@ img.alignright,
 
 .custom-logo {
   display: block;
-  height: 270px;
 }
 
 .shrink .custom-logo {
@@ -5397,8 +5396,3 @@ ul.testimonials-list h5 {
   margin: 100px;
 }
 
-@media (max-width: 767px){
-  .custom-logo{
-    margin-top: -85px;
-  }
-}
