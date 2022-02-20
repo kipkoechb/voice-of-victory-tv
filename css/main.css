@@ -3333,7 +3333,7 @@ ul.testimonials-list h5 {
 }
 
 .has-hero-slider .front-page-1 .slick-slider {
-  max-height: 100vh;
+  max-height: 60vh;
 }
 
 .has-hero-slider .front-page-1 .slick-slide {
@@ -5243,7 +5243,6 @@ ul.testimonials-list h5 {
 }
 
 .slick-slide .slick-image {
-  height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
