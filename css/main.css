@@ -867,9 +867,7 @@ video,
   max-width: 100%;
 }
 
-img {
-  height: auto;
-}
+
 
 figure {
   margin: 0;
@@ -1521,8 +1519,8 @@ img.alignright,
   position: relative;
   z-index: 100;
   width: 100%;
-  border-bottom: 1px solid rgba(198, 202, 206, 0.3);
-  background-color: #ffffff;
+  border-bottom: 1px solid rgba(70, 128, 255,0.3);
+  background-color: rgb(70, 128, 255);
   transition: all 0.3s ease;
 }
 
@@ -1532,7 +1530,7 @@ img.alignright,
 }
 
 .js.has-sticky-header .site-header.shrink {
-  background-color: #ffffff;
+  background-color: rgb(70, 128, 255);
   box-shadow: 0 0 4rem rgba(42, 49, 57, 0.05);
 }
 
@@ -1542,7 +1540,7 @@ img.alignright,
 }
 
 .contact-page .site-header {
-  background-color: #ffffff;
+  background-color: rgb(70, 128, 255);
 }
 
 .site-header > .wrap {
@@ -1622,12 +1620,13 @@ img.alignright,
   display: flex;
   position: relative;
   height: 4rem;
-  color: #3f454c;
-  background-color: #f6f8fa;
+  color: #ffffff;
+  background-color: rgb(70, 128, 255);
   font-size: 1.2rem;
   flex-wrap: wrap;
   align-items: center;
   transition: all 0.3s ease;
+  font-weight: 800;
 }
 
 .no-js .before-header {
@@ -1914,7 +1913,7 @@ img.alignright,
 .menu-item a {
   display: inline-block;
   margin: 2px;
-  color: #2a3139;
+  color: #ffffff;
   text-decoration: none;
   transition: all 0.3s ease;
 }
@@ -5229,7 +5228,7 @@ ul.testimonials-list h5 {
 .slick-slide > div {
   display: flex;
   align-items: center;
-  height: 100%;
+  height: 95%;
   width: 100%;
 }
 
@@ -5394,4 +5393,3 @@ ul.testimonials-list h5 {
 .container {
   margin: 100px;
 }
-
